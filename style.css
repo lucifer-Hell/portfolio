@@ -98,8 +98,15 @@ header{
 }   
 
 @media screen and (max-width:730px){
+
+    main section button{
+        font-size: 50%;
+    }
    .navbar{
        justify-content: space-between;
+       background:white;
+       opacity: 0.8;
+       border-bottom: #0e0d0d 1px solid;
    }
    .brandName{
      
@@ -112,7 +119,7 @@ header{
        margin-top: 3%;
        margin-left:3%;
        font-size:250%;
-       color:#AF6A2F;
+       color:#0e0d0d;
    }
    .toggle:hover {
        /* transform-origin: center; */
@@ -157,18 +164,42 @@ main{
 }
 #profileLogo{
    border-radius: 80%;
-   height: 40vh;
+   height: 38vh;
    width: 40vh;
 
 }
 
+@keyframes main-btn{
+    0% {
+        box-shadow: 0px 2px 5px 10px rgba(214,131,214,1);
+    }
+    50% {
+        box-shadow: 0px 2px 5px 10px rgb(53, 157, 206);
+
+     
+
+    }
+    100% {
+        box-shadow: 0px 2px 5px 10px rgb(219, 118, 35);
+       
+       
+        
+    }
+}
+
+
+
 main section button {
-    transition: all 1s;
-    outline: none;
-    background-color: transparent;
-    height: 5em;
     
-    border: none;
+    animation: main-btn 2s ease-in  infinite ;
+    transition: all 1s;
+    border-radius: 100px 100px 100px 100px;
+    border-color: transparent;
+    outline: none;
+    background-color: rgb(44, 214, 101);
+    color:white;
+    font-size: 80%;
+    height: 5em;
     
 }
 main section button:hover{
@@ -179,4 +210,9 @@ main section button:hover{
 }
 main section button:active{
     border:none;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
 }
