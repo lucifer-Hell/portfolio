@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap-social.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="header">
+        <div class="nav navbar">
+            <div class="navbar-brand"><h2 class="text-primary">PJ's</h2></div>
+            <div class="menu col-md-4">
+              <a href="#home" class="navbtn btn btn-outline-danger">Home</a>
+              <a href="#skill" class="navbtn btn btn-outline-danger">Skills</a>
+              <a href="#project" class="navbtn btn btn-outline-danger">Projects</a>
+              <a href="#contact" class="navbtn btn btn-outline-danger">Contact</a>
+            </div>
+        </div>
+    </div >
+    <div class="main">
+        <div id="home" class="section intro">
+            <div class=" content col-6">
+                <h2>
+                    Hi, I am Pankaj Shukla<br>
+                    A full-stack Web developer 
+                </h2>
+                <br>
+                <div class="col-6">
+                  <a href="#skill" class=" btn btn-outline-primary " >Lets get started</a>
+                </div>
+                
+            </div>
+             <div class="  mybrand col-6">
+                 
+         <img src="profile.png"  class="rounded-circle " style="align-self:flex-end;width:30vw;box-shadow: -1px 2px 15px 2px rgba(245,242,245,1);">
+
+             </div>
+            
+       
+       
+       
+        </div>
+        <div  id="skill" class="section skills">
+                <div class="content">
+                    <div class="title" style="color: rgb(231, 26, 12);"><H2>SKILLS & TECH STACK</H2></div>
+                    <div class="details">
+                        <div class="info ">
+                            <H4>Languages</H4>
+                            <ul>
+                                <li>Java(High)
+                                </li>
+                                <li>Javascript(High)</li>
+                                <li>C++(medium)</li>
+                                <li>C(medium)</li>
+                                
+                            </ul>
+                            <h4>WEB STACK</h4>
+                            <ul>
+                                <li>MONGO</li>
+                                <li>EXPRESS</li>
+                                <li>REACT</li>
+                                <li>NODE JS</li>
+                            </ul>
+                        </div>
+                        <div class="pics ">
+                            <img src="./mongo.png" style="width: 50px; height: 50px;" alt="mongo">
+                            <img src="./node.png" style="width: 50px; height: 50px;" alt="mongo">
+                            <img src="./react.png" style="width: 50px; height: 50px;" alt="mongo">
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div id="project" class="section project">
+            <div class="title"><H2 style="color: #007BFF;">Projects</H2></div>
+            <div class="details">   
+                <div class="info">
+                    <h3 >1.Recruitment Portal</h3>
+                    <h5>Role:Backend Developer</h5>
+                    <h5>Overview:</h5>
+                    <div>
+                     Created a full backend from sratch with latest es6 features in MEN(Mongo ,Express ,Node )stack
+                    </div>
+                    <h5>
+                        Features:
+                    </h5>
+                    <ul>
+                        <li>Project was built completely on rest api model to support front-end</li>
+                        <li>Middlewares have been used to verify users while taking tests and submitting tests</li>
+                        <li>Lastest technoloy of jwt-based token is used so that users dont have to login again and again for processing each request</li>
+                        <li>Online Mongo Clusters have been used for database storage </li>
+                        <li>Databases schemas was made based on no-sql</li>
+                    </ul>
+                    <a class="btn btn-md btn-github" href="https://github.com/lucifer-Hell/twitterClone" style="color:white" ><span class="fa fa-github"></span> Github</a>
+
+                </div>
+                <div class="pics">
+                   
+                    <img src="./recruit.png" style="width:16em;" alt="recruit portal">
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <div  class="section project">
+            <!-- <div class="title"><H2 style="color: #007BFF;">Projects</H2></div> -->
+            <div class="details">   
+                <div class="info">
+                    <h3 >2.Twitter Clone</h3>
+                    <h5>Role:Full Stack Developer</h5>
+                    <h5>Overview:</h5>
+                    <div>
+                        In this project i tried to make a possible clone of twitter. The whole intution behind this project was to understand the concept of reacts.
+                    </div>
+                    <h5>
+                        Features:
+                    </h5>
+                    <ul>
+                        <li>Project was built with two servers Backend and Front-end both of them were hosted seperately </li>
+                        <li>The authentication was based on the jwt-token based encryption</li>
+                        <li>Latest es6 features(including async await) were used in this project</li>
+                        <li>Online Mongo Clusters have been used for database storage </li>
+                        <li>Features like react-redux and other state hooks were used </li>
+                        
+                    </ul>
+                    <a class="btn btn-md btn-github" href="https://github.com/lucifer-Hell/twitterClone" style="color:white" ><span class="fa fa-github"></span> Github</a>
+
+                </div>
+
+                <div class="pics">
+                   
+                    <img src="./twitter.png" style="width:12em;" alt="recruit portal">
+                </div>
+                
+            </div>
+        </div>
+        <div class="section project">
+            <!-- <div class="title"><H2 style="color: #007BFF;">Projects</H2></div> -->
+            <div class="details">   
+                <div class="info">
+                    <h3 >3.Netflix Wiki</h3>
+                    <h5>Role:Full Stack Developer</h5>
+                    <h5>Overview:</h5>
+                    <div>
+                        This was my first project in my web-dev career. The intution behind this project was to sucessfuly build a website using MEN(Mongo,Express,Node) stack.
+                    </div>
+                    <h5>
+                        Features:
+                    </h5>
+                    <ul>
+                        <li>Project was built considering only usage of one server to process both front-end and backend work. </li>
+                        <li>Authentication was done using seesion based technique. Passport.JS was used for this purpose</li>
+                        <li>NPM packages like es-lint were used to send the html to frontend</li>
+                        <li>Online Mongo Clusters have been used for database storage </li>
+                        <li>Project was deployed on heroku server and goorm ide was used to continously develop the project.</li>
+                    </ul>
+                </div>
+                <div class="pics">
+                   
+                    <img src="./netflix.png" style="width:12em;" alt="recruit portal">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div id="contact" class="section project">
+            <!-- <div class="title"><H2 style="color: #007BFF;">Projects</H2></div> -->
+            <div class="details">   
+                <div class="info">
+                    <h3 >Contact Details</h3>
+                    <br>
+                    <h2><b>Pankaj Shukla</b></h2>
+                    <h4>Feel Free to reach out any time!</h4>
+                    <h5><b>Ph no</b>:(+91)-7089212082</h5>
+                    <br>
+                   
+                       <a class="btn btn-md btn-github" href="https://github.com/lucifer-Hell"style="color:white" ><span class="fa fa-github"></span> Github</a>
+                       <a class="btn btn-md btn-linkedin" href="https://linkedin.com/in/pankaj-shukla-97a456190" style="color:white" ><span class="fa fa-linkedin"></span> LinkedIn</a>
+                       <a  class="btn btn-md btn-google" style="color:white" ><span class="fa fa-google"></span> luciferhell58@gmail.com</a>
+                </div>
+                <div class="pics">
+                    <img src="./profile.png"  class="rounded rounded-circle" style="width:12em;" alt="recruit portal">
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
